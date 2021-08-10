@@ -26,7 +26,7 @@ const Cart = (props) => {
 			<p><small>Price: ${formetNumber(total)}</small></p>
 			<p><small>Shipping & Handling:${formetNumber(shiping)}</small></p>
 			<p><small>Total tax ${tax}</small></p>
-			<h4><small>Order Total ${grandTotal}</small></h4>
+			<h4><small>Grand Total ${grandTotal}</small></h4>
 			<button className='review-btn'> Review your order</button>
 		</div>
 
